@@ -50,7 +50,7 @@ google_key=os.getenv('GOOGLE_API_KEY')
 #local_llm = 'llama3.2:3b-instruct-fp16'
 model_name = 'llama-3.1-70b-versatile'
 #llm = ChatOllama(model=local_llm, temperature=0)
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
+llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-001")
 
 groq_chat = ChatGroq(
         groq_api_key=api_key,
